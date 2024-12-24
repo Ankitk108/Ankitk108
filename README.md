@@ -16,7 +16,7 @@ Welcome to my GitHub profile! I'm a passionate developer, problem-solver, and sc
 
 ## 🚀 **Projects & Papers**
 - 🌐 **Curie Club Website**: The official platform for the Curie Club at IISER Mohali. [View Project](https://github.com/curieClubIISERM/mainWebsite/)  
-- 📜 **Term Paper**: *Classical Algorithm for Factorization* — An in-depth exploration of classical approaches to integer factorization, a problem fundamental to modern cryptography.
+- 📜 **Term Paper**: *Classical Algorithm for Factorization* — An in-depth exploration of classical approaches to integer factorization, a problem fundamental to modern cryptography. [View Project](https://github.com/Ankitk108/Classical-Algorithms-for-Factorization)  
 - 🌀 **Vicsek Model Simulation**: A real-time interactive simulation of the Vicsek model, demonstrating collective behavior and self-organization in particle systems. [View Project](https://github.com/Ankitk108/Vicsek-Model-Simulation)
 
 ---
