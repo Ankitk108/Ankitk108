@@ -27,11 +27,11 @@ Welcome to my GitHub profile\! I'm a passionate developer, problem-solver, and s
 
 ## 🚀 **Projects & Papers**
 
-  - ⚛️ **Quantum State Visualizer**: An interactive 3D Bloch Sphere and density matrix visualizer built with **Three.js**. Allows for state manipulation via direct matrix input, Bloch coordinates (r, θ, φ), and the application of various quantum noise channels. [View Project](https://www.google.com/search?q=https://github.com/Ankitk108/quantum-state-visualizer)
+  - ⚛️ **Quantum State Visualizer**: An interactive 3D Bloch Sphere and density matrix visualizer built with **Three.js**. Allows for state manipulation via direct matrix input, Bloch coordinates (r, θ, φ), and the application of various quantum noise channels. [View Project](https://github.com/Ankitk108/Quantum-State-Visualizer)
 
-  - 🌀 **Quantum Channel Visualization**: An interactive web tool built with **Plotly.js** for understanding how quantum noise (Bit Flip, Phase Flip, Depolarizing) deforms a qubit's Bloch sphere. [View Project](https://www.google.com/search?q=https://github.com/Ankitk108/quantum-channel-visualization) | [Live Demo](https://ankitk108.github.io/Quantum-Channel-Visualization)
+  - 🌀 **Quantum Channel Visualization**: An interactive web tool built with **Plotly.js** for understanding how quantum noise (Bit Flip, Phase Flip, Depolarizing) deforms a qubit's Bloch sphere. [View Project](https://github.com/Ankitk108/Quantum-Channel-Visualization) | [Live Demo](https://ankitk108.github.io/Quantum-Channel-Visualization)
 
-  - 🔬 **Quantum Wave Lab** (Contribution): A real-time, interactive 1D quantum wave packet simulator for exploring wave packet evolution, dispersion, potential barriers, and superposition. [View Project](https://www.google.com/search?q=https://github.com/pranvi2503/quantum--animation)
+  - 🔬 **Quantum Wave Lab** (Contribution): A real-time, interactive 1D quantum wave packet simulator for exploring wave packet evolution, dispersion, potential barriers, and superposition. [View Project](https://github.com/Pranvi2503/quantum--animation)
 
   - 🌀 **Vicsek Model Simulation**: A real-time interactive simulation of the Vicsek model, demonstrating collective behavior and self-organization in particle systems. Includes dynamic controls for radius, speed, and noise. [View Project](https://github.com/Ankitk108/Vicsek-Model-Simulation)
 
