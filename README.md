@@ -1,71 +1,100 @@
-# 👋 Hi, I'm Ankit\!
+<h1 align="center">
+  Hi, I'm Ankit <img src="./assets/waving-hand.svg" width="38" alt="Waving hand" />
+</h1>
 
-Welcome to my GitHub profile\! I'm a passionate developer, problem-solver, and science enthusiast. I love building intuitive web applications, experimenting with algorithms, and contributing to communities.
+<p align="center">
+  <strong>Quantum-assisted scientific machine learning · Computational physics · Scientific visualization</strong>
+</p>
 
------
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&center=true&vCenter=true&width=700&lines=Physics+%7C+Quantum+Computing+%7C+Machine+Learning;Quantum+Machine+Learning+%7C+Scientific+Computing;Building+interactive+tools+for+understanding+physics;Researching+where+physics+meets+computation" alt="Physics, quantum computing, machine learning, and scientific computing" />
+</p>
 
-## 📑 Table of Contents
+<p align="center">
+  <img src="./assets/quantum-banner.svg" width="100%" alt="Animated quantum wave connecting physics, computation, and intuition" />
+</p>
 
-  - [About Me](https://www.google.com/search?q=%23-about-me)
-  - [Projects & Papers](https://www.google.com/search?q=%23-projects--papers)
-  - [Contributions](https://www.google.com/search?q=%23-contributions)
-  - [Let's Connect](https://www.google.com/search?q=%23-lets-connect)
-  - [GitHub Stats](https://www.google.com/search?q=%23-github-stats)
+<p align="center">
+  <i>I build computational experiments that make difficult physics observable—and report what they reveal, even when the result is negative.</i>
+</p>
 
------
+<p align="center">
+  <a href="mailto:ankitkash2002@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email Ankit" /></a>
+  <a href="https://www.linkedin.com/in/ankit-kashyap-368a78257"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="Ankit on LinkedIn" /></a>
+  <a href="https://github.com/Ankitk108?tab=followers"><img src="https://img.shields.io/github/followers/Ankitk108?label=Follow&style=flat-square&logo=github" alt="Follow Ankit on GitHub" /></a>
+</p>
 
+I'm a physics master's student at **IISER Mohali**. My work focuses on a practical question: how can computation help us test, visualize, and understand physical systems that resist simple intuition?
 
-## 🔥 **About Me**
-- 💻 **Developer**: Skilled in **JavaScript**, **Python**, and **Web Development**.
-- 🎓 **Science Enthusiast**: Former Convener of the **Curie Club, IISER Mohali**.
-- 🏆 **Achievements**:
-  - 🥇 **1st Position** in **Bets and Bytes (Insomnia'24 Hackathon)** — Built autonomous poker bots.
-  - 🗝️ **Organizer** of large-scale events like treasure hunts.
-  - 💡 **Lead Developer** of the **Curie Club Website** — Official platform for Curie Club at IISER Mohali.
+## Featured Research: QAPINN-CFD
 
------
+**[QAPINN-CFD](https://github.com/Ankitk108/qapinn-cfd)** is a controlled, multi-seed comparison of classical physics-informed neural networks and quantum-assisted PINNs for the viscous Burgers equation.
 
-## 🚀 **Projects & Papers**
+| Model | Mean relative L2 | Mean training time | Trainable parameters |
+| --- | ---: | ---: | ---: |
+| Classical PINN | **0.0214** | **791 s** | 50,049 |
+| QAPINN · 4 qubits · depth 2 | 0.4769 | 4,237 s | **41** |
+| QAPINN · 4 qubits · depth 4 | 0.4376 | 7,629 s | **65** |
 
-  - ⚛️ **Quantum State Visualizer**: An interactive 3D Bloch Sphere and density matrix visualizer built with **Three.js**. Allows for state manipulation via direct matrix input, Bloch coordinates (r, θ, φ), and the application of various quantum noise channels. [View Project](https://github.com/Ankitk108/Quantum-State-Visualizer)
+**Finding:** the hybrid models achieved dramatic parameter reduction, but not better accuracy or wall-clock performance on PennyLane's analytic simulator. Greater circuit depth modestly improved hybrid accuracy while increasing runtime and memory. The evidence supports parameter efficiency—not quantum advantage.
 
-  - 🌀 **Quantum Channel Visualization**: An interactive web tool built with **Plotly.js** for understanding how quantum noise (Bit Flip, Phase Flip, Depolarizing) deforms a qubit's Bloch sphere. [View Project](https://github.com/Ankitk108/Quantum-Channel-Visualization) | [Live Demo](https://ankitk108.github.io/Quantum-Channel-Visualization)
+<p align="center">
+  <a href="https://github.com/Ankitk108/qapinn-cfd/blob/master/report/final_report.md"><strong>Read the report</strong></a>
+  ·
+  <a href="https://github.com/Ankitk108/qapinn-cfd"><strong>Explore the code</strong></a>
+</p>
 
-  - 🔬 **Quantum Wave Lab** (Contribution): A real-time, interactive 1D quantum wave packet simulator for exploring wave packet evolution, dispersion, potential barriers, and superposition. [View Project](https://github.com/Pranvi2503/quantum--animation)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Ankitk108/qapinn-cfd/master/results/plots/burgers/loss_curves.png" width="820" alt="Training-loss comparison for classical PINN and QAPINN configurations" />
+</p>
 
-  - 🌀 **Vicsek Model Simulation**: A real-time interactive simulation of the Vicsek model, demonstrating collective behavior and self-organization in particle systems. Includes dynamic controls for radius, speed, and noise. [View Project](https://github.com/Ankitk108/Vicsek-Model-Simulation)
+The framework uses matched sampling and loss definitions, end-to-end second-order automatic differentiation, fixed seeds, configuration-locked runs, diagnostic plots, and explicit accuracy gates. Failed or incomplete configurations remain visible rather than being filtered out after evaluation.
 
-  - 📜 **Term Paper: Classical Algorithms for Factorization**: An in-depth exploration and implementation of classical approaches to integer factorization, from trial division to the Quadratic Sieve. (For course PHY631: Quantum Computing). [View Project](https://github.com/Ankitk108/Classical-Algorithms-for-Factorization)
+## Selected Computational Work
 
-  - 🌐 **Curie Club Website**: The official platform for the Curie Club at IISER Mohali. [View Project](https://github.com/curieClubIISERM/mainWebsite/)
+### Real-Space Topological Invariants
 
------
+**[Real-Space Topological Invariants Visualization Suite](https://github.com/Ankitk108/real-space-topology-suite)** computes the Bott index and spectral localizer for finite topological systems without relying on momentum-space or Bloch-wave methods. It is designed for disorder, open boundaries, and broken translational symmetry.
 
-## 🌟 **Contributions**
-- 🛠️ **Lead Developer**: [Curie Club Website](https://github.com/curieClubIISERM/mainWebsite/) — Designed, developed, and maintained the official website for the Curie Club at IISER Mohali.
-  - **Role**: Sole Developer
-  - **Languages & Tools**: JavaScript, HTML, CSS, Google Apps Script
-  - **Achievements**:
-    - Automated event management and attendance tracking.
-    - Designed a responsive and intuitive user interface.
+[**Source code →**](https://github.com/Ankitk108/real-space-topology-suite) · [**Interactive demo →**](https://ankitk108.github.io/real-space-topology-suite/)
 
-[![Curie Club Website](https://img.shields.io/badge/Curie%20Club-Lead%20Developer-blue?style=flat-square)](https://github.com/curieClubIISERM/mainWebsite/)
+### Interactive Physics Tools
 
------
+| Project | What becomes observable | Try it |
+| --- | --- | --- |
+| [Quantum State Visualizer](https://github.com/Ankitk108/Quantum-State-Visualizer) | Qubit states, gates, amplitudes, probabilities, and Bloch-sphere geometry | [Live demo](https://ankitk108.github.io/Quantum-State-Visualizer/) |
+| [Quantum Channel Visualization](https://github.com/Ankitk108/Quantum-Channel-Visualization) | How bit-flip, phase-flip, and depolarizing noise deform the Bloch sphere | [Live demo](https://ankitk108.github.io/Quantum-Channel-Visualization/) |
+| [Vicsek Model Simulation](https://github.com/Ankitk108/Vicsek-Model-Simulation) | Collective motion and noise-driven ordering in active-particle systems | [Live demo](https://ankitk108.github.io/Vicsek-Model-Simulation/) |
 
-## 📫 **Let's Connect\!**
+### Community Software
 
-  - 📧 [Email me](mailto:ankitkash2002@gmail.com)
-  - [LinkedIn](https://www.linkedin.com/in/ankit-kashyap-368a78257)
-  - [GitHub](https://github.com/Ankitk108)
-  - [Twitter](https://x.com/Ankitk108)
+**[VectorHue](https://github.com/Ankitk108/VectorHue)** is a browser-based design utility for IISER Mohali student clubs. It provides structure-aware asset editing, reusable presets, and high-resolution transparent exports. [Try the live app →](https://ankitk108.github.io/VectorHue/)
 
------
+## Technical Focus
 
-## 📊 **GitHub Stats**
+| Area | Tools | Applied to |
+| --- | --- | --- |
+| **Scientific ML & quantum** | Python, PyTorch, NumPy, SciPy, PennyLane, Qiskit | PINNs, PDEs, variational circuits, automatic differentiation, numerical experiments |
+| **Scientific visualization** | JavaScript, Three.js, Plotly.js, Canvas, HTML/CSS | Interactive quantum, topology, and collective-dynamics tools |
+| **Reproducible research** | Git, Linux, Jupyter, pytest, YAML | Multi-seed studies, configuration-locked runs, validation, and traceable results |
 
-![Ankit's GitHub stats](https://github-readme-stats.vercel.app/api?username=Ankitk108&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Ankitk108&layout=compact&theme=radical)
+## Beyond the Code
 
+- 🥇 **1st place, Bets & Bytes — Insomnia'24 Hackathon**, building autonomous poker bots
+- 🌐 **Lead Developer and former Convener, Curie Club at IISER Mohali**, developing its website and automating event and attendance workflows
 
------
+## Public Activity
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ankitk108&theme=tokyonight" alt="Ankit's public GitHub contribution activity" />
+</p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ankitk108/Ankitk108/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ankitk108/Ankitk108/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/Ankitk108/Ankitk108/output/github-contribution-grid-snake.svg" alt="Animated snake moving through Ankit's public GitHub contribution grid" />
+</picture>
+
+## Contact
+
+I welcome conversations about quantum computing, scientific machine learning, computational physics, and research software. **[Email me](mailto:ankitkash2002@gmail.com)** or connect with me on **[LinkedIn](https://www.linkedin.com/in/ankit-kashyap-368a78257)**.
